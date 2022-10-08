@@ -20,7 +20,7 @@ public class ImplementacionCatalogoPelicula implements ICatalogoPeliculas {
     @Override
     public void listarPelicula() {
         JOptionPane.showMessageDialog(null,
-                this.listaPeliculas,"LISTADO PELICULAS",2);
+                this.listaPeliculas,"LISTADO DE PELICULAS",2);
 
     }
 
